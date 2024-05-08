@@ -1438,7 +1438,7 @@ a {
 
 /*arrows Slider*/
 .tparrows {
-   background: #e84455;
+   background: #57eeff;
    -webkit-border-radius: 50%;
    border-radius: 50%;
    transition: all .5s ease;
@@ -1847,7 +1847,7 @@ a {
    position: relative;
 }
 .icon_box.whitebg {
-   background: #fff;
+   background: #ffffff;
    padding: 2.75rem 15px;
 }
 .icon_box:hover {
@@ -2155,6 +2155,8 @@ ul.bullet-list li::before {
 .pricing_list {
    font-size: 14px;
    padding: 25px 0;
+   border-top: 1px solid rgba(139, 144, 157, 0.18);
+   border-bottom: 1px solid rgba(139, 144, 157, 0.18);
 }
 .pricing_list li {
    margin: 14px 0;
