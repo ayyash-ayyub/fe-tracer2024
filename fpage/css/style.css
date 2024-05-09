@@ -3912,6 +3912,13 @@ ul, ol, dl {
    }
    
 
+   /* Define a media query for mobile devices */
+@media only screen and (min-width: 767px) {
+   #layarhp {
+      display: none;
+   }
+}
+
 
 /*@media (max-width: 1400px){
    .split-box .padding {
