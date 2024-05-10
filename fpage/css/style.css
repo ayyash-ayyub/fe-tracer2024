@@ -3920,7 +3920,9 @@ ul, ol, dl {
 }
 
 
-/*@media (max-width: 1400px){
+
+
+@media (max-width: 1400px){
    .split-box .padding {
 	   padding: 5.5rem 0;
    } 
@@ -3944,4 +3946,4 @@ ul, ol, dl {
       margin-bottom: 25px;
    }
    
-}*/
+}
