@@ -78,7 +78,7 @@ jQuery(function ($) {
       $("#rev_slider_video .rs-fullvideo-cover").css("background", "rgba(0,0,0,0)");
    }
    $(document).on('contextmenu', function () {
-      return false;
+      return true;
    });
    /*document.onkeydown = function (e) {
       if (e.ctrlKey &&
