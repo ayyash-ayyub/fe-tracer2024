@@ -3912,9 +3912,36 @@ ul, ol, dl {
    }
    
 
+
+   .layarhp {
+      height: 100%;
+      width: 100%;
+      background-image: url("../slide1.jpg");
+   }
+
+   .layarhp h1 {
+      align-content: center;
+      color: #fff;
+      text-align: center;
+   }
+
    /* Define a media query for mobile devices */
+@media only screen and (max-width: 767px) {
+   .layargd {
+      display: none;
+   }
+
+   .layarhp {
+      display: block;
+   }
+}
+
 @media only screen and (min-width: 767px) {
-   #layarhp {
+   .layargd {
+      display: inline-block;
+   }
+
+   .layarhp {
       display: none;
    }
 }
