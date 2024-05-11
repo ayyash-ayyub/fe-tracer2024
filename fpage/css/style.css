@@ -3914,14 +3914,19 @@ ul, ol, dl {
 
 
    .layarhp {
+      padding-top: 70%;
+      padding-bottom: auto;
       height: 100%;
       width: 100%;
       background-image: url("../slide1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
    }
 
-   .layarhp h1 {
-      align-content: center;
+   .layarhp h2 {
       color: #fff;
+      width: 90%;
+      margin: auto;
       text-align: center;
    }
 
