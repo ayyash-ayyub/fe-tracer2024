@@ -72,24 +72,24 @@
                <li class="nav-item">
                   <a class="nav-link" href="https://api.whatsapp.com/send?phone=+628119252424&text=Hallo%20saya%20ingin%20bertanya%20terkait%20Tracer%20Study" target="_blank">Kontak Bantuan</a>
                </li>
+               <li class="nav-item">
+                  <a class="pagescroll tp-caption btn_common btn_danger tp-resizeme" href="#masuk"
+                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+                     data-y="['middle','middle','middle','middle']" data-voffset="['100','100','100','100']" 
+                     data-width="210" data-height="none"
+                     data-whitespace="normal" data-type="button" 
+                     data-actions='' data-responsive_offset="on"
+                     data-textAlign="['center','center','center','center']"
+                     data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]"
+                     data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]"
+                     data-frames='[{"delay":700,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"200","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0;"}]'
+                     style="box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
+                     Mulai Survey
+                  </a>
+               </li>
             </ul>
          </div>
 
-         <div class="nav-social">
-            <a class="tp-caption btn_common btn_danger tp-resizeme" href="#"
-               data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-               data-y="['middle','middle','middle','middle']" data-voffset="['100','100','100','100']" 
-               data-width="210" data-height="none"
-               data-whitespace="normal" data-type="button" 
-               data-actions='' data-responsive_offset="on"
-               data-textAlign="['center','center','center','center']"
-               data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]"
-               data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]"
-               data-frames='[{"delay":700,"speed":2000,"frame":"0","from":"sX:1;sY:1;opacity:0;fb:40px;","to":"o:1;fb:0;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"200","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;fb:0;"}]'
-               style="box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
-               Mulai Survey
-            </a>
-         </div>
 
          <!--side menu open button-->
          <a href="javascript:void(0)" class="d-inline d-lg-inline-block sidemenu_btn" id="sidemenu_toggle">
@@ -144,7 +144,7 @@
    <h2>Ayo, Sukseskan</h2>
    <h2 class="text-capitalize font-bold whitecolor">Tracer Study</h2>
    <h2>Pendidikan Vokasi</h2>
-   <a class="btn_common btn_danger" style="width: 60%; margin: 20px 20%;" href="#">
+   <a class="btn_common btn_danger" style="width: 60%; margin: 20px 20%;" href="#masuk">
       Mulai Survey
    </a>
 </Div>
@@ -787,6 +787,204 @@
 </section>
 <!--FAQ ends-->
 
+<!--login start -->
+<section id="masuk" class="padding-top bg-light padding-bottom">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12 text-center wow fadeIn" data-wow-delay="300ms">
+            <h2 class="heading darkcolor"><span>Mulai </span>Survey<span class="divider-center"></span></h2>
+            <p class="bottom30 margin10">Silahkan masuk untuk memulai survey tracer study</p>
+         </div>
+      </div>
+      <div class="tab">
+         <button class="tablinks" onclick="userrole(event, 'alumnismk')">Alumni SMK</button>
+         <button class="tablinks" onclick="userrole(event, 'alumniptv')">Alumni PTV</button>
+         <button class="tablinks" onclick="userrole(event, 'smk')">SMK</button>
+         <button class="tablinks" onclick="userrole(event, 'ptv')">PTV</button>
+         <button class="tablinks" onclick="userrole(event, 'dudi')">DUDI</button>
+         </div>
+         
+         <div id="alumnismk" class="tabcontent">
+            <div class="isitab col-lg-5 col-md-6 padding-top-half padding-bottom">
+               <div class="logincontainer">
+                  <h3 class="darkcolor">Alumni SMK</h3>
+                  <form class="findus" id="login">
+                     <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                           <div class="form-group bottom20">
+                              <input class="form-control" type="number" placeholder="NISN atau NIK" required>
+                           </div>
+                        </div>
+                        
+                        <div class="col-md-12 col-sm-12">
+                           <div class="form-group bottom20">
+                              <label class="form-check-label" for="rememberMe">
+                                 Gunakan NISN atau NIK yang Anda miliki untuk masuk
+                                 *Pastikan khusus lulusan tahun 2023
+                              </label>
+                           </div>
+                        </div>
+                        <div class="col-sm-12">
+                           <button type="submit" class="btn_common btn_primary">Masuk</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+         
+         <div id="alumniptv" class="tabcontent">
+            <div class="isitab col-lg-5 col-md-6 padding-top-half padding-bottom">
+               <div class="logincontainer">
+                  <h3 class="darkcolor">Alumni PTV</h3>
+                  <form class="findus" id="login">
+                     <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                           <div class="form-group bottom20">
+                              <input class="form-control" type="datalist" placeholder="Pilih perguruan tinggi" required>
+                           </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                           <div class="form-group bottom20">
+                              <input class="form-control" type="number" placeholder="NIM atau NIK" required>
+                           </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                           <div class="form-group bottom20">
+                              <label class="form-check-label" for="rememberMe">
+                                 Gunakan NIM atau NIK yang Anda miliki
+                                 *Pastikan khusus lulusan tahun 2023
+                              </label>
+                           </div>
+                        </div>
+                        <div class="col-sm-12">
+                           <button type="submit" class="btn_common btn_primary">Masuk</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+
+         <div id="smk" class="tabcontent">
+            <div class="isitab col-lg-5 col-md-6 padding-top-half padding-bottom">
+               <div class="logincontainer">
+                  <h3 class="darkcolor">Sekolah Menengah Kejuruan</h3>
+                  <form class="findus" id="login">
+                     <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                           <div class="form-group bottom20">
+                              <input class="form-control" type="email" placeholder="surel DAPODIK" required>
+                           </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                           <div class="form-group bottom20">
+                              <input class="form-control" type="number" placeholder="NPSN" required>
+                           </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                           <div class="form-group bottom20">
+                              <label class="form-check-label" for="rememberMe">
+                                 Gunakan alamat surel yang terdaftar di DAPODIK
+                              </label>
+                           </div>
+                        </div>
+                        <div class="col-sm-12">
+                           <button type="submit" class="btn_common btn_primary">Masuk</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div> 
+         </div>
+
+         <div id="ptv" class="tabcontent">
+            <div class="isitab col-lg-5 col-md-6 padding-top-half padding-bottom">
+               <div class="logincontainer">
+                  <h3 class="darkcolor">Perguruan Tinggi Vokasi</h3>
+                  <form class="findus" id="login">
+                     <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                           <div class="form-group bottom20">
+                              <input class="form-control" type="text" placeholder="Kode perguruan tinggi" required>
+                           </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                           <div class="form-group bottom20">
+                              <input class="form-control" type="password" placeholder="Kata sandi" required>
+                           </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                           <div class="form-group bottom20">
+                              <label class="form-check-label" for="rememberMe">
+                                 
+                              </label>
+                           </div>
+                        </div>
+                        <div class="col-sm-12">
+                           <button type="submit" class="btn_common btn_primary">Masuk</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div> 
+         </div>
+         
+         <div id="dudi" class="tabcontent">
+         <div class="isitab col-lg-5 col-md-6 padding-top-half padding-bottom">
+            <div class="logincontainer">
+               <h3 class="darkcolor">Daftarkan DUDI</h3>
+               <form class="findus" id="login">
+                  <div class="row">
+                     <div class="col-md-12 col-sm-12">
+                        <div class="form-group bottom20">
+                           <input class="form-control" type="name" placeholder="Nama Lengkap" required>
+                        </div>
+                     </div>
+                     <div class="col-md-12 col-sm-12">
+                        <div class="form-group bottom20">
+                           <input class="form-control" type="email" placeholder="surel aktif" required>
+                        </div>
+                     </div>
+                     <div class="col-md-12 col-sm-12"> 
+                        <div class="form-group bottom20">
+                           <input class="form-control" type="password" placeholder="Kata sandi" required>
+                        </div>
+                     </div>
+                     <div class="col-md-12 col-sm-12"> 
+                        <div class="form-group bottom20">
+                           <input class="form-control" type="password" placeholder="Ulangi kata sandi" required>
+                        </div>
+                     </div>
+                     <div class="col-sm-12">
+                        <button type="submit" class="btn_common btn_primary">Daftar</button>
+                        <p class="top20 log-meta no_bottom"> Sudah punya akun? <a href="#">masuk disini</a> </p>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+         </div>
+   </div>
+</section>
+
+<script>
+   function userrole(evt, rolename) {
+     var i, tabcontent, tablinks;
+     tabcontent = document.getElementsByClassName("tabcontent");
+     for (i = 0; i < tabcontent.length; i++) {
+       tabcontent[i].style.display = "none";
+     }
+     tablinks = document.getElementsByClassName("tablinks");
+     for (i = 0; i < tablinks.length; i++) {
+       tablinks[i].className = tablinks[i].className.replace(" active", "");
+     }
+     document.getElementById(rolename).style.display = "inline-block";
+     evt.currentTarget.className += " active";
+   }
+   </script>
+
+<!--login ends-->
 
 <!--FOOTER-->
 <footer class="padding-top">
